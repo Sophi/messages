@@ -6457,7 +6457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0bf663e0-4737-4294-91b9-739a7c89e362")
-		(property "Reference" "LRCK"
+		(property "Reference" "LRCK1"
 			(at 25.654 26.416 0)
 			(effects
 				(font
@@ -6689,7 +6689,7 @@
 		(instances
 			(project "Radiation"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/b03a8cbd-5823-419c-808a-8b6445fe34d3"
-					(reference "LRCK")
+					(reference "LRCK1")
 					(unit 1)
 				)
 			)
@@ -6965,7 +6965,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d236602-5a20-4757-a26c-87dded78c6ab")
-		(property "Reference" "OUTL"
+		(property "Reference" "OUTL1"
 			(at 76.962 84.836 0)
 			(effects
 				(font
@@ -7197,7 +7197,7 @@
 		(instances
 			(project "Radiation"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/b03a8cbd-5823-419c-808a-8b6445fe34d3"
-					(reference "OUTL")
+					(reference "OUTL1")
 					(unit 1)
 				)
 			)
@@ -7275,7 +7275,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "416cd8a4-cb6f-4f27-bde7-7ce5cd65cc07")
-		(property "Reference" "OUTR"
+		(property "Reference" "OUTR1"
 			(at 73.152 82.296 0)
 			(effects
 				(font
@@ -7507,7 +7507,7 @@
 		(instances
 			(project "Radiation"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/b03a8cbd-5823-419c-808a-8b6445fe34d3"
-					(reference "OUTR")
+					(reference "OUTR1")
 					(unit 1)
 				)
 			)
@@ -10456,7 +10456,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "822d3d0e-6b0e-41eb-9163-c0e64198640f")
-		(property "Reference" "DOUT"
+		(property "Reference" "DOUT1"
 			(at 30.988 26.416 0)
 			(effects
 				(font
@@ -10688,7 +10688,7 @@
 		(instances
 			(project "Radiation"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/b03a8cbd-5823-419c-808a-8b6445fe34d3"
-					(reference "DOUT")
+					(reference "DOUT1")
 					(unit 1)
 				)
 			)
@@ -12918,7 +12918,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e43ae2da-ab40-4cfa-93a2-4879f0573adb")
-		(property "Reference" "BCK"
+		(property "Reference" "BCK1"
 			(at 36.83 26.416 0)
 			(effects
 				(font
@@ -13150,7 +13150,7 @@
 		(instances
 			(project "Radiation"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/b03a8cbd-5823-419c-808a-8b6445fe34d3"
-					(reference "BCK")
+					(reference "BCK1")
 					(unit 1)
 				)
 			)
