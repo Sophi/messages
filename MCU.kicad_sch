@@ -4108,7 +4108,7 @@
 		(uuid "34ae1c0d-9df8-49be-80a0-57f52e4307f3")
 	)
 	(junction
-		(at 262.89 25.4)
+		(at 262.89 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38f9c861-12ec-49a4-829e-b68ed69e5c5b")
@@ -4503,7 +4503,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 45.72) (xy 226.06 45.72)
+			(xy 217.17 45.72) (xy 237.49 45.72)
 		)
 		(stroke
 			(width 0)
@@ -4573,7 +4573,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 39.37) (xy 276.86 39.37)
+			(xy 271.78 95.25) (xy 276.86 95.25)
 		)
 		(stroke
 			(width 0)
@@ -4660,6 +4660,16 @@
 			(type default)
 		)
 		(uuid "24d75f49-708c-4563-a218-59c98fda0ae0")
+	)
+	(wire
+		(pts
+			(xy 245.11 43.18) (xy 252.73 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258a82b8-23b9-4572-ad8e-21ac6873af7d")
 	)
 	(wire
 		(pts
@@ -4923,7 +4933,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 24.13) (xy 245.11 26.67)
+			(xy 245.11 80.01) (xy 245.11 82.55)
 		)
 		(stroke
 			(width 0)
@@ -4953,7 +4963,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 25.4) (xy 271.78 26.67)
+			(xy 271.78 81.28) (xy 271.78 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5133,7 +5143,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 34.29) (xy 245.11 38.1)
+			(xy 245.11 90.17) (xy 245.11 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5193,7 +5203,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 34.29) (xy 262.89 41.91)
+			(xy 262.89 90.17) (xy 262.89 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5413,7 +5423,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 25.4) (xy 262.89 26.67)
+			(xy 262.89 81.28) (xy 262.89 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5433,7 +5443,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 40.64) (xy 226.06 40.64)
+			(xy 217.17 40.64) (xy 237.49 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5510,6 +5520,16 @@
 			(type default)
 		)
 		(uuid "8afc6289-bf09-44a0-9bf2-5b0f3eaf1689")
+	)
+	(wire
+		(pts
+			(xy 245.11 45.72) (xy 252.73 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cdd4ebd-e148-46a7-b90a-92ecde55e759")
 	)
 	(polyline
 		(pts
@@ -5763,6 +5783,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 40.64) (xy 252.73 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7c2654c-0671-4136-937a-6dd0ef2d8c8d")
+	)
+	(wire
+		(pts
 			(xy 97.79 139.7) (xy 97.79 137.16)
 		)
 		(stroke
@@ -5923,7 +5953,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 41.91) (xy 267.97 41.91)
+			(xy 262.89 97.79) (xy 267.97 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5983,7 +6013,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 25.4) (xy 271.78 25.4)
+			(xy 262.89 81.28) (xy 271.78 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5993,7 +6023,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 34.29) (xy 252.73 38.1)
+			(xy 252.73 90.17) (xy 252.73 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6063,7 +6093,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 34.29) (xy 271.78 39.37)
+			(xy 271.78 90.17) (xy 271.78 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6113,7 +6143,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 43.18) (xy 226.06 43.18)
+			(xy 217.17 43.18) (xy 237.49 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6163,7 +6193,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 24.13) (xy 252.73 26.67)
+			(xy 252.73 80.01) (xy 252.73 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6183,7 +6213,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 24.13) (xy 262.89 25.4)
+			(xy 262.89 80.01) (xy 262.89 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6758,7 +6788,7 @@
 		(uuid "605889f9-530c-4488-a8a6-70cf0e4c1be3")
 	)
 	(label "SCL"
-		(at 271.78 39.37 0)
+		(at 271.78 95.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6989,7 +7019,7 @@
 		(uuid "f4eb2ad3-93c9-4818-97e5-6ee889cee356")
 	)
 	(label "SDA"
-		(at 262.89 41.91 0)
+		(at 262.89 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7024,7 +7054,7 @@
 	)
 	(hierarchical_label "I2S_BCK"
 		(shape input)
-		(at 226.06 40.64 0)
+		(at 252.73 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7060,7 +7090,7 @@
 	)
 	(hierarchical_label "I2S_DOUT"
 		(shape input)
-		(at 226.06 45.72 0)
+		(at 252.73 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7228,7 +7258,7 @@
 	)
 	(hierarchical_label "I2S_LRCK"
 		(shape input)
-		(at 226.06 43.18 0)
+		(at 252.73 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7699,7 +7729,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 245.11 24.13 0)
+		(at 245.11 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7707,7 +7737,7 @@
 		(dnp no)
 		(uuid "090003b6-4817-4471-b548-f81efd31c71a")
 		(property "Reference" "#PWR019"
-			(at 245.11 27.94 0)
+			(at 245.11 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7716,7 +7746,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 245.11 20.32 0)
+			(at 245.11 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7724,7 +7754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 24.13 0)
+			(at 245.11 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7733,7 +7763,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 24.13 0)
+			(at 245.11 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7742,7 +7772,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 245.11 24.13 0)
+			(at 245.11 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9200,7 +9230,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 245.11 30.48 0)
+		(at 245.11 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9208,7 +9238,7 @@
 		(dnp no)
 		(uuid "24873cb4-0c96-44f4-bd8c-59ba25711be7")
 		(property "Reference" "C9"
-			(at 240.538 28.702 0)
+			(at 240.538 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9217,7 +9247,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 239.522 32.512 0)
+			(at 239.522 88.392 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9226,7 +9256,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 246.0752 34.29 0)
+			(at 246.0752 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9235,7 +9265,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 30.48 0)
+			(at 245.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9244,7 +9274,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 245.11 30.48 0)
+			(at 245.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9253,7 +9283,7 @@
 			)
 		)
 		(property "MPN" "CL21B106KPQNNNE"
-			(at 245.11 30.48 0)
+			(at 245.11 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9343,7 +9373,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 262.89 30.48 180)
+		(at 262.89 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9351,7 +9381,7 @@
 		(dnp no)
 		(uuid "2624dd3c-157b-44a7-95a0-5a8eb64e8b1e")
 		(property "Reference" "R10"
-			(at 261.366 29.464 0)
+			(at 261.366 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9360,7 +9390,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 261.112 31.496 0)
+			(at 261.112 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9369,7 +9399,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 261.874 30.226 90)
+			(at 261.874 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9378,7 +9408,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9387,7 +9417,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9396,7 +9426,7 @@
 			)
 		)
 		(property "MPN" "RMCF0805FT10K0"
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9405,7 +9435,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9414,7 +9444,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9423,7 +9453,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9432,7 +9462,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9441,7 +9471,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9450,7 +9480,7 @@
 			)
 		)
 		(property "Fieldname 1" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9459,7 +9489,7 @@
 			)
 		)
 		(property "Fieldname2" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9468,7 +9498,7 @@
 			)
 		)
 		(property "Fieldname3" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9477,7 +9507,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9486,7 +9516,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9495,7 +9525,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9504,7 +9534,7 @@
 			)
 		)
 		(property "OC_FARNELL" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9513,7 +9543,7 @@
 			)
 		)
 		(property "OC_NEWARK" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9522,7 +9552,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9531,7 +9561,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9540,7 +9570,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9549,7 +9579,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9558,7 +9588,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9567,7 +9597,7 @@
 			)
 		)
 		(property "SUPPLIER" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9576,7 +9606,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 262.89 30.48 0)
+			(at 262.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9935,7 +9965,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 271.78 30.48 180)
+		(at 271.78 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9943,7 +9973,7 @@
 		(dnp no)
 		(uuid "383cfa46-86e5-4be7-ab19-3b07b57885ed")
 		(property "Reference" "R11"
-			(at 270.256 29.464 0)
+			(at 270.256 85.344 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9952,7 +9982,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 270.002 31.496 0)
+			(at 270.002 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9961,7 +9991,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 270.764 30.226 90)
+			(at 270.764 86.106 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9970,7 +10000,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9979,7 +10009,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9988,7 +10018,7 @@
 			)
 		)
 		(property "MPN" "RMCF0805FT10K0"
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9997,7 +10027,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10006,7 +10036,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10015,7 +10045,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10024,7 +10054,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10033,7 +10063,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10042,7 +10072,7 @@
 			)
 		)
 		(property "Fieldname 1" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10051,7 +10081,7 @@
 			)
 		)
 		(property "Fieldname2" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10060,7 +10090,7 @@
 			)
 		)
 		(property "Fieldname3" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10069,7 +10099,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10078,7 +10108,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10087,7 +10117,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10096,7 +10126,7 @@
 			)
 		)
 		(property "OC_FARNELL" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10105,7 +10135,7 @@
 			)
 		)
 		(property "OC_NEWARK" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10114,7 +10144,7 @@
 			)
 		)
 		(property "PACKAGE" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10123,7 +10153,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10132,7 +10162,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10141,7 +10171,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10150,7 +10180,7 @@
 			)
 		)
 		(property "Purchase-URL" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10159,7 +10189,7 @@
 			)
 		)
 		(property "SUPPLIER" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10168,7 +10198,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 271.78 30.48 0)
+			(at 271.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10969,7 +10999,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 245.11 38.1 0)
+		(at 245.11 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10978,7 +11008,7 @@
 		(fields_autoplaced yes)
 		(uuid "40128684-229c-41ec-ab57-f507ee68afa7")
 		(property "Reference" "#PWR084"
-			(at 245.11 44.45 0)
+			(at 245.11 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10987,7 +11017,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 245.11 43.18 0)
+			(at 245.11 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10995,7 +11025,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 38.1 0)
+			(at 245.11 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11004,7 +11034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 38.1 0)
+			(at 245.11 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11013,7 +11043,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 38.1 0)
+			(at 245.11 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11981,6 +12011,264 @@
 			(project "Radiation"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 241.3 45.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "539957bf-c40e-41ca-982d-2c6b7fbc5a97")
+		(property "Reference" "R27"
+			(at 233.172 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33R"
+			(at 243.586 44.704 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 241.046 46.736 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0733RL"
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fieldname 1" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fieldname2" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fieldname3" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 241.3 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fde5d8b6-1e3e-47fa-b16b-81275024d3f8")
+		)
+		(pin "2"
+			(uuid "07dce992-4d70-49cc-90e9-bfc79c06c0ec")
+		)
+		(instances
+			(project "Radiation"
+				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -13720,7 +14008,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 262.89 24.13 0)
+		(at 262.89 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13728,7 +14016,7 @@
 		(dnp no)
 		(uuid "75f860d6-2fd9-4d8d-8c45-f1db78fb2ee5")
 		(property "Reference" "#PWR059"
-			(at 262.89 27.94 0)
+			(at 262.89 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13737,7 +14025,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 263.144 20.32 0)
+			(at 263.144 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13745,7 +14033,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 24.13 0)
+			(at 262.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13754,7 +14042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 24.13 0)
+			(at 262.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13763,7 +14051,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 262.89 24.13 0)
+			(at 262.89 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13785,7 +14073,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 252.73 24.13 0)
+		(at 252.73 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13793,7 +14081,7 @@
 		(dnp no)
 		(uuid "77597702-0e41-4244-84c7-0d818c692dbf")
 		(property "Reference" "#PWR042"
-			(at 252.73 27.94 0)
+			(at 252.73 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13802,7 +14090,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 252.73 20.32 0)
+			(at 252.73 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13810,7 +14098,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 24.13 0)
+			(at 252.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13819,7 +14107,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 24.13 0)
+			(at 252.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13828,7 +14116,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 252.73 24.13 0)
+			(at 252.73 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14108,7 +14396,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 252.73 38.1 0)
+		(at 252.73 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14117,7 +14405,7 @@
 		(fields_autoplaced yes)
 		(uuid "82bc1ead-436d-4ecb-9202-2d8c3c1342aa")
 		(property "Reference" "#PWR085"
-			(at 252.73 44.45 0)
+			(at 252.73 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14126,7 +14414,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 252.73 43.18 0)
+			(at 252.73 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14134,7 +14422,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 252.73 38.1 0)
+			(at 252.73 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14143,7 +14431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 38.1 0)
+			(at 252.73 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14152,7 +14440,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 38.1 0)
+			(at 252.73 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17066,7 +17354,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 252.73 30.48 0)
+		(at 252.73 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17074,7 +17362,7 @@
 		(dnp no)
 		(uuid "dc83ccfe-1031-44c0-bb46-5ce19b50c023")
 		(property "Reference" "C10"
-			(at 248.158 28.702 0)
+			(at 248.158 84.582 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17083,7 +17371,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 248.666 33.02 0)
+			(at 248.666 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17092,7 +17380,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 253.6952 34.29 0)
+			(at 253.6952 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17101,7 +17389,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 252.73 30.48 0)
+			(at 252.73 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17110,7 +17398,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 252.73 30.48 0)
+			(at 252.73 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17119,7 +17407,7 @@
 			)
 		)
 		(property "MPN" "CC0805KKX5R6BB105"
-			(at 252.73 30.48 0)
+			(at 252.73 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17280,6 +17568,522 @@
 			(project "Radiation"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 241.3 40.64 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f3cfc68f-c7d6-4d52-8405-969a91913ac8")
+		(property "Reference" "R25"
+			(at 233.172 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33R"
+			(at 243.586 39.624 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 241.046 41.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0733RL"
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fieldname 1" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fieldname2" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fieldname3" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 241.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f01b2c9-af48-44f6-a07a-0ef291e9a579")
+		)
+		(pin "2"
+			(uuid "988b69db-0fea-44d7-af98-3a6a52a7695f")
+		)
+		(instances
+			(project "Radiation"
+				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 241.3 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd9b43b9-0502-45c1-b0d2-581a49690a69")
+		(property "Reference" "R26"
+			(at 233.172 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33R"
+			(at 243.586 42.164 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 241.046 44.196 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0805FR-0733RL"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fieldname 1" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fieldname2" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fieldname3" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68dec11f-cbb7-40a7-a249-46cd3bffd6ea")
+		)
+		(pin "2"
+			(uuid "60f1156e-5dc3-4967-a3df-c6ae95a5be33")
+		)
+		(instances
+			(project "Radiation"
+				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
+					(reference "R26")
 					(unit 1)
 				)
 			)
