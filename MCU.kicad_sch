@@ -7453,7 +7453,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GCT_USB4105-GF-A"
+		(property "Footprint" "USB4105-GF-A:GCT_USB4105-GF-A"
 			(at 52.07 48.26 0)
 			(effects
 				(font
@@ -8337,7 +8337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "GCT_USB4105-GF-A"
+		(property "Footprint" "USB4105-GF-A:GCT_USB4105-GF-A"
 			(at 54.61 147.32 0)
 			(effects
 				(font
