@@ -10077,7 +10077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PW8"
+		(property "Footprint" "TPS2115APWR:PW8"
 			(at 45.72 41.91 0)
 			(effects
 				(font

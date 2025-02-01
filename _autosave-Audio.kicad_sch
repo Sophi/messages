@@ -7463,7 +7463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MEM2061-01-188-00-A_GCT"
+		(property "Footprint" "MEM2061 SD CARD CONNECTOR:MEM2061-01-188-00-A_GCT"
 			(at 125.73 167.64 0)
 			(effects
 				(font
