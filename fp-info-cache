@@ -1,4 +1,11 @@
-23724796186528445
+23736872246562471
+1 X 6 PROGRAMMING HEADER
+61300611121
+<B>WR-PHD </B><BR> 2.54mm Pin Header, 6 Pin
+
+0
+6
+6
 54100C
 54100C
 54100C-1
@@ -56426,6 +56433,13 @@ DIOM4226X244N
 0
 2
 2
+ESP32-C3-MINI-1-N4
+XCVR_ESP32-C3-MINI-1-N4
+
+
+0
+61
+61
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -57609,6 +57623,13 @@ heatsink
 0
 0
 0
+INDUCTOR 2.2UH
+IND_WE-TPC_SMT_2828_WRE
+
+744025220 
+0
+2
+2
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
@@ -64441,6 +64462,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MCP73831T_2ACI_OT
+SOT95P280X145-5N
+
+
+0
+5
+5
 MEM2061 SD CARD CONNECTOR
 MEM2061-01-188-00-A_GCT
 
@@ -88696,6 +88724,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+S2B-PH-SM4-TB
+CONN_S2B-PH-SM4-TB_JST
+
+S2B-PH-SM4-TB 
+0
+4
+4
 SD CARD HOLDER 1040310811
 MOLEX_104031-0811
 
@@ -95689,6 +95724,13 @@ igbt diode module
 0
 25
 25
+USB4056-03-A_REVA2 usb 3.2
+GCT_USB4056-03-A_REVA2
+
+
+0
+28
+28
 USB4105-GF-A
 GCT_USB4105-GF-A
 
@@ -96484,6 +96526,13 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+footprints
+ECW_FD2J105K
+
+ECW-FD2J105K 
 0
 2
 2
