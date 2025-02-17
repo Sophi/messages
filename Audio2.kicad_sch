@@ -3730,16 +3730,6 @@
 		)
 		(uuid "2038975e-bf53-4fc6-8e86-33b9439229a4")
 	)
-	(polyline
-		(pts
-			(xy 176.53 71.12) (xy 280.67 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20538a1a-0b48-419e-83ea-17b7c20fc008")
-	)
 	(wire
 		(pts
 			(xy 31.75 74.93) (xy 31.75 73.66)
@@ -3859,16 +3849,6 @@
 			(type default)
 		)
 		(uuid "3f9a43c2-f255-448e-846d-bb2d7305eb2a")
-	)
-	(polyline
-		(pts
-			(xy 176.53 116.84) (xy 280.67 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41225065-99ff-4fed-9d68-7c16fac96cd7")
 	)
 	(wire
 		(pts
@@ -4189,16 +4169,6 @@
 			(type default)
 		)
 		(uuid "75242c56-21b8-4af2-a340-6527c9aaaccc")
-	)
-	(polyline
-		(pts
-			(xy 176.53 71.12) (xy 176.53 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7548177f-c0ef-43c4-91cc-3fe4781f8561")
 	)
 	(wire
 		(pts
@@ -4539,16 +4509,6 @@
 			(type default)
 		)
 		(uuid "bc412c95-fd26-46ae-bfdc-102d9489b53d")
-	)
-	(polyline
-		(pts
-			(xy 280.67 116.84) (xy 280.67 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd8cc4b3-96f1-4767-a56c-17016ef43634")
 	)
 	(wire
 		(pts
@@ -5617,20 +5577,6 @@
 			(justify left bottom)
 		)
 		(uuid "3ad4842f-08cc-488c-b44d-d03d814e61e5")
-	)
-	(text "RADIATION INPUT TO MCU"
-		(exclude_from_sim no)
-		(at 179.07 75.692 0)
-		(effects
-			(font
-				(face "Helvetica")
-				(size 2 2)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "4e2633e7-c282-49d5-bdad-4da1456a405c")
 	)
 	(text "DISPLAY"
 		(exclude_from_sim no)
