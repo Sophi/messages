@@ -60,6 +60,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 92.71) (xy 113.03 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20cbcacc-7ce9-4a41-af38-17a075f5758c")
+	)
+	(wire
+		(pts
 			(xy 97.79 85.09) (xy 113.03 85.09)
 		)
 		(stroke
@@ -207,6 +217,16 @@
 			(type default)
 		)
 		(uuid "6cd2a945-a9a1-4116-9ac1-dfe01102b976")
+	)
+	(wire
+		(pts
+			(xy 60.96 38.1) (xy 73.66 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709bb0ff-7676-4b1f-a009-7e218858d457")
 	)
 	(wire
 		(pts
@@ -478,7 +498,20 @@
 		)
 		(uuid "f846ba87-39b0-4205-8dc9-f0d22e065528")
 	)
-	(text "-change 3.3V regulator chip\n-add LED blink on unused GPIO\n-add diode arrows\n-VBAT is missing\n-sense for radiation hit is missing\n\n-fuse clip footprint wrong \n-add test point names TP5, 8 etc too confusing\n-add positive and negative for GM tube\n-order 2.2nF and 1uF/ 500V capacitor\n-footprint wrong Q2, Q3\n-add 10ohm 2W resistor between 5V and pin 2 transformer. gets hot, test higher value resistor\n-check GPIO46 CIRCUITRY\n-LED driver\n--maybe change PWM MOSFET chip\n\nTODO:\nLEAVE ROOM FOR DEV BOARD TO PLUG IN\nBUILD IN DISPLAY FOR TESTING BATTERY LIFE\nEYES EVERYWHERE ON THE EGGS"
+	(text "1. Breadboard Delon circuit with input to MCU\n2. set PCB up for both with jumpers!\n3. design and test input to the ESP32\n4. check fuse holder footprint\n4. add all of these things to PCB and BOM\n5. test SD card functionality\n7. check BOM to make sure everything is on it\n8. 40 pushups! did 40! SUN FEB 16\n9. 40 pushups mon feb 17"
+		(exclude_from_sim no)
+		(at 177.8 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "3760ff42-b08b-4703-aaf8-aeb1eb1db20c")
+	)
+	(text "-change 3.3V regulator chip\n-add diode arrows\n-VBAT is missing\n-sense for radiation hit is missing\n-add test point names TP5, 8 etc too confusing\n-order 2.2nF and 1uF/ 500V capacitor\n-check GPIO46 CIRCUITRY\n-LED driver\n--maybe change PWM MOSFET chip\n\nTODO:\nLEAVE ROOM FOR DEV BOARD TO PLUG IN\nBUILD IN DISPLAY FOR TESTING BATTERY LIFE\nEYES EVERYWHERE ON THE EGGS"
 		(exclude_from_sim no)
 		(at 178.054 71.12 0)
 		(effects
@@ -654,6 +687,17 @@
 		)
 		(uuid "59846df6-9020-4337-918f-d749baabe3ee")
 	)
+	(label "BLINK"
+		(at 62.23 38.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "647ff05e-a383-427e-a40d-e627c7a105c7")
+	)
 	(label "+VBAT"
 		(at 100.33 36.83 0)
 		(fields_autoplaced yes)
@@ -796,6 +840,17 @@
 			(justify left bottom)
 		)
 		(uuid "aa7e27ac-da64-4867-9e44-0daa47cb08a1")
+	)
+	(label "BLINK"
+		(at 101.6 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac1a1a16-6cb9-4a91-b9bb-87b4cdeb0bb8")
 	)
 	(label "GPIO0"
 		(at 60.96 45.72 0)
@@ -1285,6 +1340,16 @@
 			)
 			(uuid "ae05cb11-b315-422d-b99d-82be99ea9c77")
 		)
+		(pin "BLINK" input
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ff3a26d3-40ce-45e7-b313-a8591f38f4a9")
+		)
 		(instances
 			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e"
@@ -1392,6 +1457,16 @@
 				(justify left)
 			)
 			(uuid "83bf40df-1574-4925-9bb0-cc63693455b5")
+		)
+		(pin "BLINK" input
+			(at 73.66 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ca044bd9-9af4-4358-8d2a-0f12041fa365")
 		)
 		(instances
 			(project "Radiation2"

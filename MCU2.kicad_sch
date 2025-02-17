@@ -4406,10 +4406,6 @@
 		(uuid "9e03e3ae-7cae-499b-ac2b-35e0dbc9fdf3")
 	)
 	(no_connect
-		(at 217.17 66.04)
-		(uuid "a73c7287-6156-4f7b-9b6a-58e228583285")
-	)
-	(no_connect
 		(at 165.1 162.56)
 		(uuid "b7ba8e53-af48-41b2-b520-0911d169d5f9")
 	)
@@ -5602,6 +5598,16 @@
 			(type default)
 		)
 		(uuid "8678c6af-c7c8-4850-850a-bbf3844c7a36")
+	)
+	(wire
+		(pts
+			(xy 217.17 66.04) (xy 226.06 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8868d545-198e-4b9c-b120-4eda4bfc1432")
 	)
 	(wire
 		(pts
@@ -6932,6 +6938,17 @@
 		)
 		(uuid "6e9df8e8-deaf-496d-a3b8-f7c0a27b34fc")
 	)
+	(label "BLINK"
+		(at 218.44 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "765c545d-dd49-49da-85fd-3069c336a029")
+	)
 	(label "GPIO46"
 		(at 162.56 40.64 0)
 		(fields_autoplaced yes)
@@ -7451,6 +7468,18 @@
 			(justify right)
 		)
 		(uuid "d121c596-d788-4982-ac3c-03da72b172f1")
+	)
+	(hierarchical_label "BLINK"
+		(shape input)
+		(at 226.06 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec078f38-7171-4bcc-ab8b-b2cf26b18c76")
 	)
 	(hierarchical_label "MUTE"
 		(shape input)
