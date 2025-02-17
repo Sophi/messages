@@ -478,9 +478,9 @@
 		)
 		(uuid "f846ba87-39b0-4205-8dc9-f0d22e065528")
 	)
-	(text "-change 3.3V regulator chip\n-add LED blink on unused GPIO\n-add diode arrows\n-VBAT is missing\n-sense for radiation hit is missing\n\n-fuse clip footprint wrong \n-add test point names TP5, 8 etc too confusing\n-add positive and negative for GM tube\n-order 2.2nF and 1uF/ 500V capacitor\n-footprint wrong Q2, Q3\n-add 10ohm 2W resistor between 5V and pin 2 transformer. gets hot, test higher value resistor\n-check GPIO46 CIRCUITRY\n-LED driver\n--maybe change PWM MOSFET chip\n\nTODO:\nLEAVE ROOM FOR DEV BOARD TO PLUG IN\nBUILD IN DISPLAY FOR TESTING BATTERY LIFE\nEYES EVERYWHERE ON THE EGGS"
+	(text "-check GPIO46 CIRCUITRY\n-LED driver\n-change 3.3V regulator chip\n-maybe change PWM MOSFET chip\n-add LED blink on unused GPIO\n-fuse clip footprint wrong \n-footprint wrong Q2, Q3\n-order 2.2nF and 1uF/ 500V capacitor\n-VBATT\n\n\nTODO:\nLEAVE ROOM FOR DEV BOARD TO PLUG IN\nBUILD IN DISPLAY FOR TESTING BATTERY LIFE\nEYES EVERYWHERE ON THE EGGS"
 		(exclude_from_sim no)
-		(at 178.054 71.12 0)
+		(at 178.308 135.128 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1017,7 +1017,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "553d155f-51d7-41f8-b819-9cc6d294555d")
-		(property "Sheetname" "MCU2"
+		(property "Sheetname" "MCU"
 			(at 73.66 58.9784 0)
 			(effects
 				(font
@@ -1026,7 +1026,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MCU2.kicad_sch"
+		(property "Sheetfile" "MCU.kicad_sch"
 			(at 73.914 100.076 0)
 			(effects
 				(font
@@ -1305,7 +1305,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "61d54e0e-bfef-4c96-86a7-a9968a7c2798")
-		(property "Sheetname" "Power2"
+		(property "Sheetname" "Power"
 			(at 73.66 32.3084 0)
 			(effects
 				(font
@@ -1314,7 +1314,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Power2.kicad_sch"
+		(property "Sheetfile" "Power.kicad_sch"
 			(at 73.66 50.1146 0)
 			(effects
 				(font
@@ -1412,7 +1412,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "b03a8cbd-5823-419c-808a-8b6445fe34d3")
-		(property "Sheetname" "Audio2"
+		(property "Sheetname" "Audio"
 			(at 73.66 107.2384 0)
 			(effects
 				(font
@@ -1421,7 +1421,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Audio2.kicad_sch"
+		(property "Sheetfile" "Audio.kicad_sch"
 			(at 74.676 134.112 0)
 			(effects
 				(font

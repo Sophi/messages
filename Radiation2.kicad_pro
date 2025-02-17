@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Radiation.kicad_pro",
+    "filename": "Radiation2.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -830,7 +830,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "/Users/sophikravitz/Desktop/Messages from Space/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -847,15 +847,15 @@
     ],
     [
       "61d54e0e-bfef-4c96-86a7-a9968a7c2798",
-      "Power"
+      "Power2"
     ],
     [
       "553d155f-51d7-41f8-b819-9cc6d294555d",
-      "MCU"
+      "MCU2"
     ],
     [
       "b03a8cbd-5823-419c-808a-8b6445fe34d3",
-      "Audio"
+      "Audio2"
     ]
   ],
   "text_variables": {}

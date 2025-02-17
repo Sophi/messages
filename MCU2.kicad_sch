@@ -5,6 +5,108 @@
 	(uuid "518ee6c9-0ef4-4093-89f6-4998ca1abc65")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -5623,6 +5725,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 27.94) (xy 270.51 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a095c383-93ae-4b5d-b459-151ddde94b0b")
+	)
+	(wire
+		(pts
 			(xy 92.71 72.39) (xy 92.71 73.66)
 		)
 		(stroke
@@ -6620,7 +6732,7 @@
 	)
 	(text "USB to UART"
 		(exclude_from_sim no)
-		(at 138.43 174.752 0)
+		(at 138.43 171.196 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -7419,7 +7531,7 @@
 			(uuid "6837865d-a57e-4c07-a35a-c469be5cd07c")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR033")
 					(unit 1)
@@ -7719,7 +7831,7 @@
 			(uuid "e9b95ee6-d678-4e63-9fd6-a978322d9f1e")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "J1")
 					(unit 1)
@@ -7784,7 +7896,7 @@
 			(uuid "1e588704-9e95-44f1-baa2-7e9b37a823af")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR019")
 					(unit 1)
@@ -7849,7 +7961,7 @@
 			(uuid "e631e9f3-ed40-436e-b6b0-c3efeb23158a")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR043")
 					(unit 1)
@@ -7915,7 +8027,7 @@
 			(uuid "c2257072-e1bd-4c3d-ad76-6b38efed9e44")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR079")
 					(unit 1)
@@ -8173,7 +8285,7 @@
 			(uuid "fff2fc1d-01cd-43c7-9476-8749a29aa20c")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R19")
 					(unit 1)
@@ -8239,7 +8351,7 @@
 			(uuid "a07ae0d3-bfa2-41fe-a8d9-3a42a47972f0")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR083")
 					(unit 1)
@@ -8304,7 +8416,7 @@
 			(uuid "0e0da97d-50aa-4fe7-8ff8-eed29183a77e")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR065")
 					(unit 1)
@@ -8585,7 +8697,7 @@
 			(uuid "92d011b6-1076-4040-945d-096b149cbaef")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "J2")
 					(unit 1)
@@ -8650,7 +8762,7 @@
 			(uuid "712bc86e-2191-488d-af1b-ab590f757c30")
 		)
 		(instances
-			(project ""
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR041")
 					(unit 1)
@@ -8716,7 +8828,7 @@
 			(uuid "8dba9c62-b057-42df-b2ca-24f5c2fa9bd4")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR082")
 					(unit 1)
@@ -9155,7 +9267,7 @@
 			(uuid "0f10569a-bdea-4437-a873-a84ec67d4244")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "U4")
 					(unit 1)
@@ -9220,7 +9332,7 @@
 			(uuid "9e58dbc4-acf6-4db5-aea9-9daf3f815210")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR076")
 					(unit 1)
@@ -9298,7 +9410,7 @@
 			(uuid "225c6048-e37f-4f3a-98fa-0a8ff381eb26")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "C9")
 					(unit 1)
@@ -9363,7 +9475,7 @@
 			(uuid "44f06baa-10b6-4ddc-a266-f1d67449864a")
 		)
 		(instances
-			(project ""
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR012")
 					(unit 1)
@@ -9621,7 +9733,7 @@
 			(uuid "5b601138-2bb6-435f-9406-7bdb9ff267bd")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R10")
 					(unit 1)
@@ -9686,7 +9798,7 @@
 			(uuid "367c1a7f-9d7f-4f58-a997-4af84487b38b")
 		)
 		(instances
-			(project ""
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR018")
 					(unit 1)
@@ -9760,7 +9872,7 @@
 			(uuid "423a3de5-6c4e-4e96-b5cd-62361fa79ef3")
 		)
 		(instances
-			(project ""
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR028")
 					(unit 1)
@@ -9892,7 +10004,7 @@
 			(uuid "cb637aae-cec8-4c2e-b5db-3ef0cc5b5030")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "U5")
 					(unit 1)
@@ -9955,7 +10067,7 @@
 			(uuid "8307e122-18a2-494c-aac3-c38be514c8ed")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR044")
 					(unit 1)
@@ -10213,7 +10325,7 @@
 			(uuid "e8dd6cf9-bebf-4b9e-9b53-b0f367fcefcd")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R11")
 					(unit 1)
@@ -10472,7 +10584,7 @@
 			(uuid "8cc432ac-1498-423a-919b-c81432bb990a")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "D12")
 					(unit 1)
@@ -10730,7 +10842,7 @@
 			(uuid "b38d64bf-397b-437b-a196-42c0457747d8")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R14")
 					(unit 1)
@@ -10989,7 +11101,7 @@
 			(uuid "09ac91a7-a823-4fc5-9efe-af701e9bb03d")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "D11")
 					(unit 1)
@@ -11055,7 +11167,7 @@
 			(uuid "ceca327e-15d8-457c-b75b-d33e477e417a")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR084")
 					(unit 1)
@@ -11121,7 +11233,7 @@
 			(uuid "9c4f41a1-065e-4c7b-adc8-0eefb0820460")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR080")
 					(unit 1)
@@ -11187,7 +11299,7 @@
 			(uuid "2690cfc3-b2eb-4db1-93f6-dea3a7c1c2f2")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR032")
 					(unit 1)
@@ -11427,7 +11539,7 @@
 			(uuid "a7d89266-798a-4a55-bc0b-b3c179d2c451")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "C12")
 					(unit 1)
@@ -11685,7 +11797,7 @@
 			(uuid "e7971456-363a-4ba0-89bc-523fa0bab6bd")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R12")
 					(unit 1)
@@ -11750,7 +11862,7 @@
 			(uuid "34a0f223-e330-4173-9487-ce867eb9bbcd")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#FLG02")
 					(unit 1)
@@ -12008,7 +12120,7 @@
 			(uuid "09403109-5a24-4db2-a0c3-2b01df015f20")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R21")
 					(unit 1)
@@ -12266,7 +12378,7 @@
 			(uuid "07dce992-4d70-49cc-90e9-bfc79c06c0ec")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R27")
 					(unit 1)
@@ -12332,7 +12444,7 @@
 			(uuid "ce779736-91f8-4f78-83e4-f38da24b292d")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR081")
 					(unit 1)
@@ -12409,7 +12521,7 @@
 			(uuid "279ee7a2-89b0-43a1-9191-b3623bf77ca3")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "D8")
 					(unit 1)
@@ -12444,7 +12556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 220.98 130.175 0)
 			(effects
 				(font
@@ -12455,7 +12567,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.redrok.com/MOSFET_BS108_200V_250mA_8O_Vth1.5_TO-92.PDF"
+		(property "Datasheet" ""
 			(at 220.98 132.08 0)
 			(effects
 				(font
@@ -12673,7 +12785,7 @@
 			(uuid "e59a9079-5498-41b2-92e9-e93a20903562")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "Q2")
 					(unit 1)
@@ -12931,7 +13043,7 @@
 			(uuid "03e14904-5f12-496a-b637-b1f2d16c5766")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R13")
 					(unit 1)
@@ -12996,7 +13108,7 @@
 			(uuid "58a9bee1-3ca7-4c68-b1b3-2951a2c86b63")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR027")
 					(unit 1)
@@ -13254,7 +13366,7 @@
 			(uuid "e318e2c1-e196-4e7d-ab29-815ff4ea696b")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R9")
 					(unit 1)
@@ -13289,7 +13401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 219.71 155.575 0)
 			(effects
 				(font
@@ -13300,7 +13412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.redrok.com/MOSFET_BS108_200V_250mA_8O_Vth1.5_TO-92.PDF"
+		(property "Datasheet" ""
 			(at 219.71 157.48 0)
 			(effects
 				(font
@@ -13518,7 +13630,7 @@
 			(uuid "295a2b47-7a41-4abe-91c8-d5980c0a4c3d")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "Q3")
 					(unit 1)
@@ -13758,7 +13870,7 @@
 			(uuid "d829eda9-2cc1-4f40-bccd-3b1c94e9a670")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "C25")
 					(unit 1)
@@ -13998,7 +14110,7 @@
 			(uuid "d3334191-d800-48c1-a661-5f599ae5acb2")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "C24")
 					(unit 1)
@@ -14063,7 +14175,7 @@
 			(uuid "c2f80882-d08b-4f95-af6b-deabc1ed8183")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR059")
 					(unit 1)
@@ -14128,7 +14240,7 @@
 			(uuid "5d1d4094-7f53-4bd9-a7b7-61624110d422")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR042")
 					(unit 1)
@@ -14386,7 +14498,7 @@
 			(uuid "7391a397-370d-4f4f-94ca-df1869726d8b")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R16")
 					(unit 1)
@@ -14452,7 +14564,7 @@
 			(uuid "9fdb104a-5465-4fc7-a9d5-e14b59e38204")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR085")
 					(unit 1)
@@ -14710,7 +14822,7 @@
 			(uuid "fb66a6ef-8d4c-4419-85f9-da72cd20676a")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R18")
 					(unit 1)
@@ -14969,7 +15081,7 @@
 			(uuid "682790d8-35ba-48be-a695-def2107cd63b")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "D5")
 					(unit 1)
@@ -15228,7 +15340,7 @@
 			(uuid "208bf127-72c2-4f9a-afdf-d4587c3dba10")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "D6")
 					(unit 1)
@@ -15486,7 +15598,7 @@
 			(uuid "f5f78a37-fb22-452c-bcd0-d73fab94b42b")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R20")
 					(unit 1)
@@ -15551,9 +15663,322 @@
 			(uuid "25ea0917-e302-433a-bf0c-4b7ac8231778")
 		)
 		(instances
-			(project ""
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 270.51 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a08f9f24-ac4d-4f31-84ba-76ddf2ca0edd")
+		(property "Reference" "GND1"
+			(at 268.224 22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 273.05 25.9079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_Pin:Pin_D1.0mm_L10.0mm"
+			(at 275.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fieldname 1" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fieldname2" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Fieldname3" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_FARNELL" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "OC_NEWARK" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SUPPLIER" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 270.51 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be268a08-e8d3-4ec2-a728-7a37fddd0b71")
+		)
+		(instances
+			(project "Radiation2"
+				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
+					(reference "GND1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 270.51 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae528535-9c02-4f31-894b-f1dd311322e7")
+		(property "Reference" "#PWR03"
+			(at 270.51 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 270.51 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ada22acc-3fbd-4595-a1da-7956b0ecb73c")
+		)
+		(instances
+			(project "Radiation2"
+				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -15810,7 +16235,7 @@
 			(uuid "a5c42b07-5ca6-4778-814c-f352b279ed6a")
 		)
 		(instances
-			(project ""
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "D10")
 					(unit 1)
@@ -16068,7 +16493,7 @@
 			(uuid "a9bef187-9a50-48cb-8317-6d024e77d529")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R15")
 					(unit 1)
@@ -16134,7 +16559,7 @@
 			(uuid "61ffff63-c0ea-40cc-9b3d-5f1c2e4bedcd")
 		)
 		(instances
-			(project ""
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#FLG01")
 					(unit 1)
@@ -16199,7 +16624,7 @@
 			(uuid "5f908e22-ec1d-4f73-ba38-5112aed19651")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR075")
 					(unit 1)
@@ -16457,7 +16882,7 @@
 			(uuid "20b9e995-65bd-4531-85e1-a616677f49e8")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R17")
 					(unit 1)
@@ -16716,7 +17141,7 @@
 			(uuid "ebca7136-455e-4da7-b582-217ad810dd24")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "D7")
 					(unit 1)
@@ -16956,7 +17381,7 @@
 			(uuid "65ee5e72-dadb-4091-85b5-7b52cfb6c2f5")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "C11")
 					(unit 1)
@@ -17021,7 +17446,7 @@
 			(uuid "1da38cff-f6fa-41b2-876b-897d634ede07")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR078")
 					(unit 1)
@@ -17279,7 +17704,7 @@
 			(uuid "3b8798f7-9f0a-4364-8761-e17b93bebe21")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R31")
 					(unit 1)
@@ -17344,7 +17769,7 @@
 			(uuid "5afc46c7-6fe9-4e9a-92d8-160f92fadcaf")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR029")
 					(unit 1)
@@ -17422,7 +17847,7 @@
 			(uuid "e9c41486-3f87-4fca-876e-1b058872ec50")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "C10")
 					(unit 1)
@@ -17488,7 +17913,7 @@
 			(uuid "42276127-0e02-45bd-a92d-b37997c99023")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "#PWR031")
 					(unit 1)
@@ -17565,7 +17990,7 @@
 			(uuid "df9e24d4-84fa-43e4-9684-b25e9f62c74c")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "D9")
 					(unit 1)
@@ -17823,7 +18248,7 @@
 			(uuid "988b69db-0fea-44d7-af98-3a6a52a7695f")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R25")
 					(unit 1)
@@ -18081,7 +18506,7 @@
 			(uuid "60f1156e-5dc3-4967-a3df-c6ae95a5be33")
 		)
 		(instances
-			(project "Radiation"
+			(project "Radiation2"
 				(path "/0a781558-ebe5-4562-8748-3cbe471da24e/553d155f-51d7-41f8-b819-9cc6d294555d"
 					(reference "R26")
 					(unit 1)
