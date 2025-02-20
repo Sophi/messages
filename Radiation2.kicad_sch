@@ -40,7 +40,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 45.72) (xy 73.66 45.72)
+			(xy 60.96 43.18) (xy 73.66 43.18)
 		)
 		(stroke
 			(width 0)
@@ -66,17 +66,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "20cbcacc-7ce9-4a41-af38-17a075f5758c")
+		(uuid "20481f50-9904-4cae-92e6-53bc82e1a12f")
 	)
 	(wire
 		(pts
-			(xy 97.79 85.09) (xy 113.03 85.09)
+			(xy 97.79 90.17) (xy 113.03 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21178c75-b82c-4c57-bfba-36fef958691b")
+		(uuid "20cbcacc-7ce9-4a41-af38-17a075f5758c")
 	)
 	(wire
 		(pts
@@ -150,7 +150,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 90.17) (xy 113.03 90.17)
+			(xy 97.79 87.63) (xy 113.03 87.63)
 		)
 		(stroke
 			(width 0)
@@ -167,36 +167,6 @@
 			(type default)
 		)
 		(uuid "53733d68-5b7d-4366-93c4-7c364f49d99f")
-	)
-	(wire
-		(pts
-			(xy 97.79 41.91) (xy 109.22 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5efde023-3b16-475a-8720-96c6bf85b83b")
-	)
-	(wire
-		(pts
-			(xy 97.79 72.39) (xy 113.03 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60e6ed4c-9a73-48bb-bb93-05d08ed10efc")
-	)
-	(wire
-		(pts
-			(xy 97.79 36.83) (xy 109.22 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6287d2e5-edd5-4e2b-bd7d-5403f11a2a35")
 	)
 	(wire
 		(pts
@@ -240,7 +210,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 74.93) (xy 113.03 74.93)
+			(xy 97.79 82.55) (xy 113.03 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd84569-910e-45f0-b3af-9990a2b4f597")
+	)
+	(wire
+		(pts
+			(xy 97.79 72.39) (xy 113.03 72.39)
 		)
 		(stroke
 			(width 0)
@@ -250,7 +230,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 39.37) (xy 109.22 39.37)
+			(xy 97.79 35.56) (xy 109.22 35.56)
 		)
 		(stroke
 			(width 0)
@@ -260,7 +240,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 128.27) (xy 109.22 128.27)
+			(xy 97.79 130.81) (xy 109.22 130.81)
 		)
 		(stroke
 			(width 0)
@@ -290,7 +270,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 82.55) (xy 113.03 82.55)
+			(xy 97.79 80.01) (xy 113.03 80.01)
 		)
 		(stroke
 			(width 0)
@@ -350,7 +330,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 80.01) (xy 113.03 80.01)
+			(xy 97.79 77.47) (xy 113.03 77.47)
 		)
 		(stroke
 			(width 0)
@@ -370,7 +350,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 41.91) (xy 73.66 41.91)
+			(xy 60.96 40.64) (xy 73.66 40.64)
 		)
 		(stroke
 			(width 0)
@@ -380,7 +360,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 77.47) (xy 113.03 77.47)
+			(xy 97.79 74.93) (xy 113.03 74.93)
 		)
 		(stroke
 			(width 0)
@@ -390,7 +370,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 87.63) (xy 113.03 87.63)
+			(xy 97.79 85.09) (xy 113.03 85.09)
 		)
 		(stroke
 			(width 0)
@@ -400,7 +380,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 44.45) (xy 109.22 44.45)
+			(xy 97.79 38.1) (xy 109.22 38.1)
 		)
 		(stroke
 			(width 0)
@@ -440,6 +420,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 43.18) (xy 109.22 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb7f8548-92a4-4a3a-b534-a7dca254f3a3")
+	)
+	(wire
+		(pts
 			(xy 60.96 125.73) (xy 73.66 125.73)
 		)
 		(stroke
@@ -470,6 +460,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 128.27) (xy 109.22 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e95ea8e5-a5ae-4f3d-8002-d1918dc30fd6")
+	)
+	(wire
+		(pts
 			(xy 60.96 118.11) (xy 73.66 118.11)
 		)
 		(stroke
@@ -477,6 +477,16 @@
 			(type default)
 		)
 		(uuid "f3aa6aba-7ed2-4bc6-ae38-a3aad0eacbbd")
+	)
+	(wire
+		(pts
+			(xy 97.79 40.64) (xy 109.22 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d308ab-8708-4688-b9dc-58fdc2440899")
 	)
 	(wire
 		(pts
@@ -498,32 +508,41 @@
 		)
 		(uuid "f846ba87-39b0-4205-8dc9-f0d22e065528")
 	)
-	(text "1. Breadboard Delon circuit with input to MCU\n2. set PCB up for both with jumpers!\n3. design and test input to the ESP32\n4. check fuse holder footprint\n4. add all of these things to PCB and BOM\n5. test SD card functionality\n7. check BOM to make sure everything is on it\n8. 40 pushups! did 40! SUN FEB 16\n9. 40 pushups mon feb 17"
+	(text "-add test point names TP5, 8 etc too confusing\n-order 2.2nF and 1uF/ 500V capacitor\n\n\nWHILE V2 IS BEING FABBED, TEST:\nDAC\nOTG\nSD CARD\n\n\nTODO:\nLEAVE ROOM FOR DEV BOARD TO PLUG IN\nBUILD IN DISPLAY FOR TESTING BATTERY LIFE\nEYES EVERYWHERE ON THE EGGS\nLED DRIVER\nCheck GPIO46 CIRCUITRY"
 		(exclude_from_sim no)
-		(at 177.8 45.72 0)
+		(at 186.436 53.848 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
 			)
 			(justify left)
 		)
 		(uuid "3760ff42-b08b-4703-aaf8-aeb1eb1db20c")
 	)
-	(text "-change 3.3V regulator chip\n-add diode arrows\n-VBAT is missing\n-sense for radiation hit is missing\n-add test point names TP5, 8 etc too confusing\n-order 2.2nF and 1uF/ 500V capacitor\n-check GPIO46 CIRCUITRY\n-LED driver\n--maybe change PWM MOSFET chip\n\nTODO:\nLEAVE ROOM FOR DEV BOARD TO PLUG IN\nBUILD IN DISPLAY FOR TESTING BATTERY LIFE\nEYES EVERYWHERE ON THE EGGS"
+	(text "NOTES FOR PCB V2 BRINGUP:\nUSE DIP SWITCH FOR RADIATION PULSE"
 		(exclude_from_sim no)
-		(at 178.054 71.12 0)
+		(at 186.69 87.376 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "5bb6269d-f997-4dad-97ae-4528cf13f990")
+		(uuid "3eee940c-3daf-4539-b402-6624e95890bf")
+	)
+	(text "NOTES FROM PCB V1:\n3.3V REGULATOR FAILED SHORT BETWEEN VIN AND VOUT"
+		(exclude_from_sim no)
+		(at 186.69 81.026 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4bc7d904-9336-4473-9b75-88914af7bb07")
 	)
 	(label "SDA"
-		(at 102.87 82.55 0)
+		(at 102.87 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -545,7 +564,7 @@
 		(uuid "05f2e2a5-c19c-4aca-a249-dc5a97e1fe9b")
 	)
 	(label "USB_D-"
-		(at 101.6 77.47 0)
+		(at 101.6 74.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -567,7 +586,7 @@
 		(uuid "1526b434-c438-4564-8d08-ec918847368e")
 	)
 	(label "GPIO16"
-		(at 101.6 90.17 0)
+		(at 101.6 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -588,8 +607,19 @@
 		)
 		(uuid "1ecbbbd5-33f2-4a4e-be9e-8fcf78287925")
 	)
+	(label "BAT_SENSE"
+		(at 101.6 82.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21b7c23e-0dec-4a16-b235-08908dda8944")
+	)
 	(label "PWM"
-		(at 100.33 44.45 0)
+		(at 100.33 38.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -644,7 +674,7 @@
 		(uuid "43a940d7-cfe3-424c-b3d1-da604f241cf2")
 	)
 	(label "GPIO16"
-		(at 97.79 128.27 0)
+		(at 99.06 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -698,17 +728,6 @@
 		)
 		(uuid "647ff05e-a383-427e-a40d-e627c7a105c7")
 	)
-	(label "+VBAT"
-		(at 100.33 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "656426b3-9362-4583-a7b4-d4bc87f91a0e")
-	)
 	(label "GPIO38"
 		(at 59.69 85.09 0)
 		(fields_autoplaced yes)
@@ -720,8 +739,8 @@
 		)
 		(uuid "6a00b6c3-bb39-4e1a-a30f-27621c7b01ec")
 	)
-	(label "GPIO15"
-		(at 101.6 87.63 0)
+	(label "RAD_IN2"
+		(at 101.6 85.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -752,17 +771,6 @@
 			(justify left bottom)
 		)
 		(uuid "83910de1-90f7-46eb-85d8-2a6fc067ec1d")
-	)
-	(label "VSTAT"
-		(at 102.87 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "878c586a-4bb8-464e-8ab0-be5e528edece")
 	)
 	(label "SCK"
 		(at 59.69 69.85 0)
@@ -820,7 +828,7 @@
 		(uuid "a07617a7-dfed-47b5-87be-a8dd2bf70182")
 	)
 	(label "USB_D+"
-		(at 101.6 74.93 0)
+		(at 101.6 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -829,6 +837,17 @@
 			(justify left bottom)
 		)
 		(uuid "a70b322a-ae54-4e3d-bbf4-8ae95bffa33c")
+	)
+	(label "RAD_IN2"
+		(at 99.06 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a77e46a2-b816-4ed8-9f57-7dcfd52765e8")
 	)
 	(label "GPIO38"
 		(at 60.96 120.65 0)
@@ -842,7 +861,7 @@
 		(uuid "aa7e27ac-da64-4867-9e44-0daa47cb08a1")
 	)
 	(label "BLINK"
-		(at 101.6 92.71 0)
+		(at 101.6 90.17 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -853,7 +872,7 @@
 		(uuid "ac1a1a16-6cb9-4a91-b9bb-87b4cdeb0bb8")
 	)
 	(label "GPIO0"
-		(at 60.96 45.72 0)
+		(at 60.96 43.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -863,8 +882,19 @@
 		)
 		(uuid "b0d1a239-4248-4692-b245-e34f484ba3fb")
 	)
+	(label "BAT_SENSE"
+		(at 100.33 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5f309b9-72fb-497c-b7cc-8bba35d7c773")
+	)
 	(label "SCL"
-		(at 102.87 80.01 0)
+		(at 102.87 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -884,17 +914,6 @@
 			(justify left bottom)
 		)
 		(uuid "bc9e3103-625d-4fcc-909e-c69e25f6cff2")
-	)
-	(label "VSTAT"
-		(at 100.33 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "be59337e-423f-4b1a-8107-fa212bb5586e")
 	)
 	(label "GPIO42"
 		(at 60.96 128.27 0)
@@ -918,7 +937,29 @@
 		)
 		(uuid "cf981ae6-3756-44cc-97ea-911ad8bb43f5")
 	)
-	(label "GPIO15"
+	(label "VBUS"
+		(at 101.6 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d1b95b20-ea76-4b39-b82c-fde0bff583f1")
+	)
+	(label "RAD_IN"
+		(at 100.33 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2c6ab1a-f87f-40db-a367-59719b1918e6")
+	)
+	(label "RAD_IN"
 		(at 97.79 125.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -963,7 +1004,7 @@
 		(uuid "dc6e1dc8-6315-48a2-89cb-a64b9bd8ff4b")
 	)
 	(label "EN"
-		(at 60.96 41.91 0)
+		(at 60.96 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -974,7 +1015,7 @@
 		(uuid "de3a5adc-b487-4a05-a815-8a4861263b92")
 	)
 	(label "VBUS"
-		(at 100.33 39.37 0)
+		(at 100.33 35.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1049,17 +1090,6 @@
 			(justify left bottom)
 		)
 		(uuid "f47fc5ab-c1f8-4d93-844e-47fdd082b21a")
-	)
-	(label "+VBAT"
-		(at 113.03 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fd9942ea-81cc-453d-8fbe-e600e7eea901")
 	)
 	(sheet
 		(at 73.66 59.69)
@@ -1180,16 +1210,6 @@
 			)
 			(uuid "b7e582fd-e217-4009-ac79-75e49f8a3bac")
 		)
-		(pin "VSTAT" input
-			(at 97.79 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ac938624-e332-417d-b022-a8263d9131ab")
-		)
 		(pin "BEEP" input
 			(at 73.66 77.47 180)
 			(effects
@@ -1201,7 +1221,7 @@
 			(uuid "0bc0d379-ced4-4ae3-af0d-f66e3897b70b")
 		)
 		(pin "USB_D+" input
-			(at 97.79 74.93 0)
+			(at 97.79 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,7 +1231,7 @@
 			(uuid "54e379b3-c80e-43c4-ac73-fff6f1696ade")
 		)
 		(pin "SDA" input
-			(at 97.79 82.55 0)
+			(at 97.79 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1241,7 @@
 			(uuid "93c644de-1014-4529-bc0a-9acc3157b50a")
 		)
 		(pin "USB_D-" input
-			(at 97.79 77.47 0)
+			(at 97.79 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1231,7 +1251,7 @@
 			(uuid "e2d25cc2-8499-47a0-bc1c-eeecc8fe1bd4")
 		)
 		(pin "SCL" input
-			(at 97.79 80.01 0)
+			(at 97.79 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1249,16 +1269,6 @@
 				(justify left)
 			)
 			(uuid "d14bd2b1-78ef-4d53-9e61-96fcce6ff65d")
-		)
-		(pin "+VBAT" input
-			(at 97.79 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "36ef4921-ad82-4059-b59a-66b357c5c617")
 		)
 		(pin "GPIO46" input
 			(at 73.66 80.01 180)
@@ -1320,8 +1330,8 @@
 			)
 			(uuid "81dbaa43-a71b-43bf-8a9b-63a1d8ab907c")
 		)
-		(pin "GPIO15" input
-			(at 97.79 87.63 0)
+		(pin "RAD_IN2" input
+			(at 97.79 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,7 +1341,7 @@
 			(uuid "32639452-fa2a-4d39-95bc-921c6be4e1f3")
 		)
 		(pin "GPIO16" input
-			(at 97.79 90.17 0)
+			(at 97.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1351,7 @@
 			(uuid "ae05cb11-b315-422d-b99d-82be99ea9c77")
 		)
 		(pin "BLINK" input
-			(at 97.79 92.71 0)
+			(at 97.79 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,6 +1359,26 @@
 				(justify right)
 			)
 			(uuid "ff3a26d3-40ce-45e7-b313-a8591f38f4a9")
+		)
+		(pin "BAT_SENSE" input
+			(at 97.79 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1e360545-932b-4093-920e-ee7b910abefd")
+		)
+		(pin "VBUS" input
+			(at 97.79 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d8239a7d-33b1-48d0-8b78-aeabe7930c76")
 		)
 		(instances
 			(project "Radiation2"
@@ -1388,18 +1418,8 @@
 				(justify left top)
 			)
 		)
-		(pin "+VBAT" input
-			(at 97.79 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "d4663e5f-6647-47c1-9fa2-f607460d9d34")
-		)
 		(pin "VBUS" input
-			(at 97.79 39.37 0)
+			(at 97.79 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,18 +1428,8 @@
 			)
 			(uuid "bbf20841-e019-4547-9bc8-1dfc365a24f8")
 		)
-		(pin "VSTAT" input
-			(at 97.79 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "73167733-62e0-4bb8-8179-212635144fa4")
-		)
 		(pin "PWM" input
-			(at 97.79 44.45 0)
+			(at 97.79 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1439,7 @@
 			(uuid "5eab1e3a-152c-4a13-90bc-5af57ff39fed")
 		)
 		(pin "EN" output
-			(at 73.66 41.91 180)
+			(at 73.66 40.64 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1449,7 +1459,7 @@
 			(uuid "1b460b1d-9298-4a4a-8df6-b42bd19a9f6b")
 		)
 		(pin "GPIO0" input
-			(at 73.66 45.72 180)
+			(at 73.66 43.18 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1467,6 +1477,26 @@
 				(justify left)
 			)
 			(uuid "ca044bd9-9af4-4358-8d2a-0f12041fa365")
+		)
+		(pin "BAT_SENSE" input
+			(at 97.79 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "76bb6b33-4437-452a-9205-2d482d58c957")
+		)
+		(pin "RAD_IN" input
+			(at 97.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e408da4f-e298-4136-9042-f6b098fe4d13")
 		)
 		(instances
 			(project "Radiation2"
@@ -1635,7 +1665,7 @@
 			)
 			(uuid "7aeb2cce-51ad-4d61-883e-3aa42fb33ca8")
 		)
-		(pin "GPIO15" input
+		(pin "RAD_IN" input
 			(at 97.79 125.73 0)
 			(effects
 				(font
@@ -1646,7 +1676,7 @@
 			(uuid "eb238d03-fbdf-463d-9ab5-04dcee413952")
 		)
 		(pin "GPIO16" input
-			(at 97.79 128.27 0)
+			(at 97.79 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1654,6 +1684,16 @@
 				(justify right)
 			)
 			(uuid "ad2d0f54-14bb-4d16-8f75-85396def40dd")
+		)
+		(pin "RAD_IN2" input
+			(at 97.79 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8431ea21-b3d3-4513-882a-2a1ccbf43d97")
 		)
 		(instances
 			(project "Radiation2"
