@@ -1,10 +1,10 @@
 import os #file ops
 import math
+import random
 import struct
 import machine #for gpio
 import sdcard
 import uos #for filesystem mounting 
-import random #random number generation functions
 import time #delays
 import ustruct
 from machine import I2S, Pin, SDCard
@@ -21,31 +21,10 @@ i2s = I2S(
     #bits=32,       # 32-bit audio
     format=I2S.STEREO,
     #format=I2S.MONO,
-    #rate=11000,    # Standard audio rate (adjust as needed)
-    rate=44100,
+    rate=44100, #rate=11000,    # Standard audio rate (adjust as needed)
     ibuf=100000     # I2S internal buffer size,
     #controls how much audio data is preloaded into I2S before playback
 )
-
-# Connect SD card to SPI pins
-'''spi = machine.SPI(1, baudrate=2500000, sck=machine.Pin(12), mosi=machine.Pin(11), miso=machine.Pin(13))
-cs = machine.Pin(10, machine.Pin.OUT)'''
-sd = machine.SDCard(slot=2, width=1, sck=12, miso=13, mosi=11, cs=10, freq=25000000)
-#cd=None, wp=None, cmd=None, data=None, 
-
-#os.mount(sd,"/sd")
-try:
-    os.umount("/sd")  # Unmount if already mounted
-
-except OSError:
-    print("SD card was not mounted.")
-    
-os.mount(sd,"/sd")    
-# Initialize SD card
-#sd = sdcard.SDCard(spi, cs)
-#uos.mount(sd, "/sd")
-#uos.umount("/sd") just in case I need to unmount later 
-# end SD card setup
 
 # initialize DAC
 DAC = machine.Pin(14, machine.Pin.OUT)
@@ -62,14 +41,7 @@ def list_sd_files():
         print("Error accessing SD card:", e)
 
 def play_specific_sound():
-    #file_path = "/sd/output_11000_mono.wav"
-    #file_path = "/sd/scuse_me2_mono.wav"
     file_path = "/sd/final_pump.wav"
-    #file_path = "/sd/lewis_balls2.wav"
-    #file_path = "/sd/space-animal-stereo.wav"
-    #file_path = "/sd/gong-bell-stereo.wav" #22500, MONO
-    #file_path = "/sd/output.wav"
-    #if file_path not in os.listdir("/sd"):
     if "lewis_balls2.wav" not in os.listdir("/sd"):
         print("File not found:", file_path)
         return
@@ -94,9 +66,7 @@ def play_specific_sound():
     print("Playback finished")
     
 def play_specific_soundA():
-    #file_path = "/sd/final_pump.wav"
     file_path = "/sd/final_pump_clip.wav"
-    #file_path = "/sd/lewis_balls2.wav"
     if "final_pump_clip.wav" not in os.listdir("/sd"):
         print("File not found:", file_path)
         return
@@ -144,6 +114,6 @@ def play_random_sound():
 
 
 # Example usage:
-list_sd_files()
+#list_sd_files()
 #play_random_sound()
-play_specific_sound()
+#play_specific_sound()

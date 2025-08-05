@@ -1,18 +1,14 @@
-from machine import Pin
-from time import sleep
+import machine
+import utime
 
-led = Pin(2, Pin.OUT)
+# Set up the LED on GPIO 2
+led = machine.Pin(2, machine.Pin.OUT)
 
-def blink(times=5, pin=2, delay=0.5):
-    led = Pin(pin, Pin.OUT)
+# Blink LED on GPIO 2 5 times
+def blink(times=5, pin=2):
+    led = machine.Pin(pin, machine.Pin.OUT)
     for _ in range(times):
         led.value(1)
-        sleep(delay)
+        utime.sleep(0.5)
         led.value(0)
-        sleep(delay)
-
-#while True:
-    #led.value(1)
-    #sleep(0.5)
-    #led.value(0)
-    #sleep(0.5)
+        utime.sleep(0.5)

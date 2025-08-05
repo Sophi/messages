@@ -16,8 +16,8 @@ led = machine.Pin(2, machine.Pin.OUT)
 led.value(0)
 
 # Set up the beeper on GPIO 6
-beep = machine.Pin(6, machine.Pin.OUT)
-beep.value(0)
+#beep = machine.Pin(6, machine.Pin.OUT)
+#beep.value(0)
 
 # Set up GPIO 15 as input (default pulled up, LOW when triggered)
 trigger = machine.Pin(15, machine.Pin.IN)
@@ -26,30 +26,30 @@ trigger = machine.Pin(15, machine.Pin.IN)
 radiation_detected = False
 
 # Interrupt handler function
-def handle_radiation(pin):
+def irq_handler(pin):
     global radiation_detected
-    radiation_detected = True #set flag on detection
+    radiation_detected = True
 
-# Attach interrupt to GPIO15 (triggers on FALLING EDGE)
-trigger.irq(trigger=machine.Pin.IRQ_FALLING, handler=handle_radiation)
+trigger.irq(trigger=machine.Pin.IRQ_FALLING, handler=irq_handler)
 
+def handle_radiation():
+    global radiation_detected
+    print("Radiation monitoring started")
+    while True:
+        if radiation_detected:
+            print("Radiation detected")
+            playRandom.play_random_sound()
+            for _ in range(1):  # blink/beep once
+                led.value(1)
+               # beep.value(1)
+                utime.sleep(1)
+                led.value(0)
+               # beep.value(0)
+                utime.sleep(1)
+            radiation_detected = False
+        utime.sleep(0.1)  # avoid hogging CPU
 
-# Keep the script running
-while True:
-    if radiation_detected:
-        for _ in range(1):  # Blink LED 5 times
-            led.value(1)
-            beep.value(0)
-            utime.sleep(1)
-            led.value(0)
-            beep.value(0)
-            utime.sleep(1)
-            led.value(1)
-            utime.sleep(1)
-            led.value(0)
-            utime.sleep(1)
+    
         #playRandom.play_random_sound()  # Call function to play a random sound
         #playRandom.play_specific_sound()
-        #playRandom.list_sd_files()       
-        radiation_detected = False    
-    utime.sleep(1)  # Keep the script alive
+        #playRandom.list_sd_files() 
