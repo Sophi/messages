@@ -1,22 +1,26 @@
+#main
 import utime
 import os
 import blink
+import lamp
 
 import sdutils
 utime.sleep(0.5)
 sdutils.mount_sd()
 
 import playRandom
-import radiationIN
-import _thread  # Allows running radiation detection in a separate thread
+import cosmicRay
+#import cosmicRay2
+import _thread  # Allows running radiation udetection in a separate thread	`
 
+lamp.clear()
 print("Starting main.py")
-blink.blink(3)  # Blink 5 times
+blink.blink(1)  # Blink 5 times
 
 print("Blink finished")
 
 # Start radiation detection in a separate thread
-_thread.start_new_thread(radiationIN.handle_radiation, ())
+_thread.start_new_thread(cosmicRay.handle_radiation, ())
 
 # Keep main script running
 while True:

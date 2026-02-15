@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 1.0,
-          "height": 1.5,
-          "width": 1.5
+          "height": 2.0,
+          "width": 2.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,76 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|57200000|180070000|543e4c4d-9b5b-43c7-bb58-6b22ee7b3016|2037337d-0a16-4ce4-855a-955d211d5cdc",
+          ""
+        ],
+        [
+          "hole_clearance|57400000|180070000|543e4c4d-9b5b-43c7-bb58-6b22ee7b3016|4a46ad47-8f9c-418d-ba44-c82b953e7319",
+          ""
+        ],
+        [
+          "hole_clearance|62800000|180070000|8c660e26-3858-4002-9bd1-da5994efb82a|fc99ac2e-f385-4639-82bb-65972ec2731d",
+          ""
+        ],
+        [
+          "hole_clearance|63000000|180070000|8c660e26-3858-4002-9bd1-da5994efb82a|88ec2d01-85b9-4c04-9193-32dc653a79ba",
+          ""
+        ],
+        [
+          "lib_footprint_issues|40797500|129720000|27204616-dbe0-49b2-9b9f-bca3a023f593|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_issues|53200000|127200000|0227c482-d6e1-4052-b6d7-6bed809bd663|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|69175000|114550000|a8679b49-ee80-453a-9ed9-88600f082315|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|69200000|117225000|6c499f3f-6254-4d2b-920f-b6467471c98e|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|69200000|119925000|6205c5b8-5ee4-48d2-8e59-c5de01266b68|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "mirrored_text_on_front_layer|49750000|179975000|2d7a9792-0b04-47d5-ba46-c2748d9e4243|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|55630000|186825000|a72146cd-9774-465a-b00e-024feb9e755c|9305d271-aa12-43c6-ae42-d8f685d30f55",
+          ""
+        ],
+        [
+          "silk_edge_clearance|64570000|186825000|a72146cd-9774-465a-b00e-024feb9e755c|908775d5-bc9c-4de5-b351-e882f42cc897",
+          ""
+        ],
+        [
+          "silk_over_copper|39425000|75057500|197963c6-826d-4a0d-ab09-b06d66bb48f0|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|39430000|184492500|777fa375-8f26-4dc6-aad1-9ab99d569756|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|41965000|75057500|ec2465e3-1c80-443c-a987-a1c155899356|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|41970000|184492500|eaf2132b-b7db-44d4-9862-ff3cdcf0711f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|53900000|88700000|c69f412a-a06f-4f63-8bcd-5f7b4c89cd17|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -243,7 +312,36 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "footprint_link_issues|1384300|393700|d833fb82-143f-46be-a58e-7a9a24579c75|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|558800|1206500|fcc57bc6-d047-4ee2-9f89-fcc07a3978ef|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|774700|495300|68a11f37-8a08-4b5c-9d43-3a42c58706a8|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_issues|1384300|393700|d833fb82-143f-46be-a58e-7a9a24579c75|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_issues|774700|495300|68a11f37-8a08-4b5c-9d43-3a42c58706a8|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|2425700|1320800|2a7def66-a831-45a2-984b-1e808772fef0|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "lib_symbol_mismatch|762000|482600|9e626e59-a39b-4342-9cc5-fad211639e57|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -576,8 +674,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/Users/sophikravitz/Desktop/Messages_from_Space/Messages/",
-      "pos_files": "/Users/sophikravitz/Desktop/Messages_from_Space/Messages/",
+      "plot": "/Users/sophikravitz/Desktop/Messages_from_Space/",
+      "pos_files": "/Users/sophikravitz/Desktop/Messages_from_Space/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",

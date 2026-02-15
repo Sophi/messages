@@ -1,3 +1,4 @@
+#playRandom v2
 import os #file ops
 import math
 import random
@@ -6,8 +7,12 @@ import machine #for gpio
 import sdcard
 import uos #for filesystem mounting 
 import time #delays
+import utime
 import ustruct
 from machine import I2S, Pin, SDCard
+
+sound_files = [f for f in os.listdir("/sd") if f.lower().endswith(".wav")]
+unplayed_files = sound_files.copy()
 
 # setup
 # Configure I2S for your DAC
@@ -40,80 +45,33 @@ def list_sd_files():
     except Exception as e:
         print("Error accessing SD card:", e)
 
-def play_specific_sound():
-    file_path = "/sd/final_pump.wav"
-    if "lewis_balls2.wav" not in os.listdir("/sd"):
-        print("File not found:", file_path)
-        return
-    print("Playing:", file_path)
-    
-    buffer_size = 24576  # Reduce chunk size to prevent SD timeout
-    #Controls how much data is read from the SD card at a time
-    audio_buffer = bytearray(buffer_size)
-
-    with open(file_path, "rb") as f:
-        f.read(44)  # Skip WAV header
-
-        while True:
-            bytes_read = f.readinto(audio_buffer)  # Read into buffer
-            #time.sleep(0.01)
-            #print (audio_buffer)
-            if not bytes_read:
-                break       
-            i2s.write(audio_buffer[:bytes_read])  # Write to I2S in small chunks
-            # Convert 16-bit PCM to properly aligned I2S 16-bit format
-
-    print("Playback finished")
-    
-def play_specific_soundA():
-    file_path = "/sd/final_pump_clip.wav"
-    if "final_pump_clip.wav" not in os.listdir("/sd"):
-        print("File not found:", file_path)
-        return
-    print("Playing:", file_path)
-
-    _BUFFER_SIZE = 8192  # Define buffer size
-    buffer = bytearray(_BUFFER_SIZE)  
-    bmv = memoryview(buffer)  # Create a memoryview for efficient slicing
-
-    with open(file_path, "rb", _BUFFER_SIZE) as infile:
-        infile.read(44)  # Skip WAV header
-
-        while True:
-            bytes_read = infile.readinto(bmv)  # Read directly into memoryview
-            if bytes_read == _BUFFER_SIZE:
-                i2s.write(bmv)  # Write full buffer
-            else:
-                i2s.write(bmv[:bytes_read])  # Write only valid data
-            if bytes_read < _BUFFER_SIZE:
-                break
-
-    print("Playback finished")    
-
-    
 # Function to play a random .wav file
 def play_random_sound():
-    wav_files = [f for f in os.listdir("/sd") if f.lower().endswith(".wav")]
-    if not wav_files:
+    print ("PlayRandom v2") #v2
+    global unplayed_files
+
+    if not sound_files:
         print("No .wav files found!")
         return
 
-    random_file = random.choice(wav_files)
-    print("Playing:", random_file)
+    if not unplayed_files:
+        # All files have been played — reset the pool
+        unplayed_files = sound_files.copy()
 
-    with open("/sd/" + random_file, "rb") as f:
+    # Pick a random file from the unplayed pool
+    chosen_file = random.choice(unplayed_files)
+    unplayed_files.remove(chosen_file)  # remove so it won't repeat
+    print("Playing:", chosen_file)
+
+    # Playback logic (your existing code)
+    with open("/sd/" + chosen_file, "rb") as f:
         f.read(44)  # Skip WAV header
-
+        utime.sleep_us(10)
         while True:
-            audio_data = f.read(1024)  # Read in chunks
+            audio_data = f.read(8192)  # Read in chunks
             if not audio_data:
                 break
             i2s.write(audio_data)  # Send to DAC
 
     print("Playback finished")
-
-
-# Example usage:
-#list_sd_files()
-#play_random_sound()
-#play_specific_sound()
+    
